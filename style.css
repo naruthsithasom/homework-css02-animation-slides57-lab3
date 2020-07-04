@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+  font-size: 13px;
+  font-family: Aldrich;
+}
+.container{
+  display:grid;
+  grid-template-rows: 60px 500px 100px ;
+  grid-template-columns: auto ;
+  grid-gap:10px;
+}
+.container > div {
+  position: relative;
+  width: 100%;
+}
+.box1{
+  background-color: black;
+  color:white;
+}
+.box2{
+  background-image: url("photo/bg-03.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box3{
+  background-color: greenyellow;
+  height: auto;
+} 
+#id_item1{
+  position: absolute;
+  top:20px;
+  width: 60px;
+  height: 60px;
+  background-color: grey;
+
+  animation-name:item1;
+  animation-duration: 2;
+  animation: item1 alternate ease-in 4s 2s infinite;
+}
+@keyframes item1{
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+    margin-left: 50%;
+  }
+}
+#id_item2{
+  position: absolute;
+  top:100px;
+  right: 0;
+  width:60px;
+  height:60px;
+  background-color: grey;
+
+  animation-name:item2;
+  animation-duration: 2;
+  animation: item2 alternate ease-in 6s 2s infinite;
+}
+@keyframes item2{
+  from{
+    background-color: blue;
+  }
+  to{
+    background-color: green;
+    margin-right: 50%;
+  }
+}
+
+#id_item3{
+  position: absolute;
+  top: 165px;
+  width:130px;
+  height:40px;
+  background-color: grey;
+
+  animation-name: item3;
+  animation-duration: 2;
+  animation: item3 alternate ease-in 1s 2s infinite;
+}
+@keyframes item3{
+  from{
+    background-color: lightcoral;
+  }
+  to{
+    background-color: mediumaquamarine;
+    margin-left: 50%;
+  }
+}
+#id_item4{
+  position: absolute;
+  top:215px;
+  right: 0;
+  width:60px;
+  height:60px;
+  background-color: grey;
+
+  animation-name:item4;
+  animation-duration: 2;
+  animation: item4 alternate ease-in 2s 2s infinite;
+}
+@keyframes item4{
+  from{
+    background-color:green;
+  }
+  to{
+    background-color: cornflowerblue;
+    margin-right: 50%;
+  }
+}
+#id_item5{
+  position: absolute;
+  top:300px;
+  right: 0;
+  width:130px;
+  height:40px;
+  background-color: grey;
+
+  animation-name: item5;
+  animation-duration: 2;
+  animation: item5 alternate ease-in 1s 1s infinite;
+}
+@keyframes item5{
+  from{
+    background-color: lightcoral;
+  }
+  to{
+    background-color: mediumaquamarine;
+    margin-right: 50%;
+  }
+}
