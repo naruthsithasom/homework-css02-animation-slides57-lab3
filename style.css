@@ -33,9 +33,7 @@ body{
   width: 60px;
   height: 60px;
   background-color: grey;
-
   animation-name:item1;
-  animation-duration: 2;
   animation: item1 alternate ease-in 4s 2s infinite;
 }
 @keyframes item1{
@@ -54,9 +52,7 @@ body{
   width:60px;
   height:60px;
   background-color: grey;
-
   animation-name:item2;
-  animation-duration: 2;
   animation: item2 alternate ease-in 6s 2s infinite;
 }
 @keyframes item2{
@@ -75,9 +71,7 @@ body{
   width:130px;
   height:40px;
   background-color: grey;
-
   animation-name: item3;
-  animation-duration: 2;
   animation: item3 alternate ease-in 1s 2s infinite;
 }
 @keyframes item3{
@@ -96,9 +90,7 @@ body{
   width:60px;
   height:60px;
   background-color: grey;
-
   animation-name:item4;
-  animation-duration: 2;
   animation: item4 alternate ease-in 2s 2s infinite;
 }
 @keyframes item4{
@@ -117,9 +109,7 @@ body{
   width:130px;
   height:40px;
   background-color: grey;
-
   animation-name: item5;
-  animation-duration: 2;
   animation: item5 alternate ease-in 1s 1s infinite;
 }
 @keyframes item5{
